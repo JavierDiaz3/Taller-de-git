@@ -1,6 +1,6 @@
 <?php
  // Autor:Javier D<javierdia@...>
- //el nombre por defecto es mundo
+    print "Introduce tu nombre: ";
     $nombre = isset($argv[1]) ? $argv[1] : "mundo";
     @print "hola {$nombre}\n"
 ?>
